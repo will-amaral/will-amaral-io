@@ -8,22 +8,22 @@ const Sidebar = () => {
         <nav>
           <ul>
             <li>
-              <NavLink to='/' className='scrolly' activeClassName='active'>
+              <NavLink exact to='/' className='scrolly' activeClassName='active'>
                 Olá
               </NavLink>
             </li>
             <li>
-              <NavLink to='/sobre' className='scrolly' activeClassName='active'>
+              <NavLink exact to='/sobre' className='scrolly' activeClassName='active'>
                 Quem eu sou
               </NavLink>
             </li>
             <li>
-              <NavLink to='/projetos' className='scrolly' activeClassName='active'>
+              <NavLink exact to='/projetos' className='scrolly' activeClassName='active'>
                 O que eu faço
               </NavLink>
             </li>
             <li>
-              <NavLink to='/contato' className='scrolly' activeClassName='active'>
+              <NavLink exact to='/contato' className='scrolly' activeClassName='active'>
                 Deixa um alô
               </NavLink>
             </li>

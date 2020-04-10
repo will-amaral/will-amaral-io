@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-snapshot';
-import 'assets/index.css';
+import 'assets/sass/main.scss';
 import App from 'App';
 import * as serviceWorker from 'serviceWorker';
 

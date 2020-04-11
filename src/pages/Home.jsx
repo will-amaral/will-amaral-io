@@ -7,8 +7,12 @@ import Section from 'containers/Section';
 const Home = () => (
   <>
     <Helmet>
-      <title>Home Page</title>
-      <meta name='description' content='Home Page' />
+      <title>Willian Amaral - Jornalista, Designer e Desenvolvedor</title>
+      <meta
+        name='description'
+        content='Jornalista Digital, Willian Amaral é especialista em 
+		tecnologia e informação. Atua como desenvolvedor javascript, em especial com ReactJS e NodeJS'
+      />
     </Helmet>
     <Section id='intro' className='style1 fullscreen fade-up'>
       <h1>Willian Amaral</h1>

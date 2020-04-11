@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import { render } from 'react-snapshot';
 import 'assets/sass/main.scss';
 import App from 'App';
@@ -6,7 +7,9 @@ import * as serviceWorker from 'serviceWorker';
 
 render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <App />
+    </Router>
   </React.StrictMode>,
   document.querySelector('#root')
 );

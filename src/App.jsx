@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Route, Switch, useLocation } from 'react-router-dom';
 
 import Home from 'pages/Home';
 import Sobre from 'pages/Sobre';
@@ -8,6 +8,7 @@ import Contato from 'pages/Contato';
 import Wrapper from 'containers/Wrapper';
 
 const App = () => {
+  const location = useLocation();
   useEffect(() => {
     const body = document.querySelector('body').classList;
     const timer = setTimeout(() => {
@@ -17,24 +18,22 @@ const App = () => {
   }, []);
 
   return (
-    <Router>
-      <Wrapper>
-        <Switch>
-          <Route exact path='/'>
-            <Home />
-          </Route>
-          <Route exact path='/sobre'>
-            <Sobre />
-          </Route>
-          <Route exact path='/projetos'>
-            <Projetos />
-          </Route>
-          <Route exact path='/contato'>
-            <Contato />
-          </Route>
-        </Switch>
-      </Wrapper>
-    </Router>
+    <Wrapper>
+      <Switch location={location}>
+        <Route exact path='/'>
+          <Home />
+        </Route>
+        <Route exact path='/sobre'>
+          <Sobre />
+        </Route>
+        <Route exact path='/projetos'>
+          <Projetos />
+        </Route>
+        <Route exact path='/contato'>
+          <Contato />
+        </Route>
+      </Switch>
+    </Wrapper>
   );
 };
 

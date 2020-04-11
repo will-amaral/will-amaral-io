@@ -9,8 +9,8 @@ import Footer from 'components/Footer';
 const Home = () => (
   <>
     <Helmet>
-      <title>Home Page</title>
-      <meta name='description' content='Home Page' />
+      <title>Willian Amaral - Deixa um alô</title>
+      <meta name='description' content='Contato' />
     </Helmet>
     <Section className='style1 fade-up'>
       <h2>Deixa um alô</h2>

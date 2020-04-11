@@ -4,7 +4,8 @@ import PropTypes from 'prop-types';
 const Feature = (props) => {
   return (
     <section>
-      <span class={'icon major fa-' + props.icon}></span>
+      <span className={'icon major fas fa-' + props.icon}></span>
+
       <h3>{props.title}</h3>
       <p>{props.content}</p>
     </section>

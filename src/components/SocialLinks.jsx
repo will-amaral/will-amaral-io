@@ -16,24 +16,27 @@ const SocialLinks = () => {
           <h3>Mídias Sociais</h3>
           <ul className='icons'>
             <li>
-              <a href='https://twitter.com/willamaral_io' className='fa-twitter'>
+              <a href='https://twitter.com/willamaral_io' className='fab fa-twitter'>
                 <span className='label'>Twitter</span>
               </a>
             </li>
             <li>
-              <a href='https://www.facebook.com/willian.amaral' className='fa-facebook'>
+              <a
+                href='https://www.facebook.com/willian.amaral'
+                className='fab fa-facebook'
+              >
                 <span className='label'>Facebook</span>
               </a>
             </li>
             <li>
-              <a href='https://github.com/will-amaral' className='fa-github'>
+              <a href='https://github.com/will-amaral' className='fab fa-github'>
                 <span className='label'>GitHub</span>
               </a>
             </li>
             <li>
               <a
                 href='https://www.instagram.com/will.amaral.io/'
-                className='fa-instagram'
+                className='fab fa-instagram'
               >
                 <span className='label'>Instagram</span>
               </a>
@@ -41,7 +44,7 @@ const SocialLinks = () => {
             <li>
               <a
                 href='https://www.linkedin.com/in/willian-amaral/'
-                className='fa-linkedin'
+                className='fab fa-linkedin'
               >
                 <span className='label'>LinkedIn</span>
               </a>

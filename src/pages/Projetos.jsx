@@ -10,7 +10,7 @@ import { features } from 'data';
 const Home = () => (
   <>
     <Helmet>
-      <title>Home Page</title>
+      <title>Willian Amaral - O que eu faço</title>
       <meta name='description' content='Home Page' />
     </Helmet>
     <Section className='style3 fade-up'>
@@ -18,7 +18,12 @@ const Home = () => (
       <p>Conheça algumas dos meus serviços e áreas de atuação.</p>
       <div className='features'>
         {features.map((item) => (
-          <Feature icon={item.icon} title={item.title} content={item.content} />
+          <Feature
+            key={item.title}
+            icon={item.icon}
+            title={item.title}
+            content={item.content}
+          />
         ))}
       </div>
       <ul className='actions'>

@@ -15,8 +15,8 @@ const Header = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to='/dev/chatApp' activeClassName='active'>
-              Chat
+            <NavLink to='/dev/youtube' activeClassName='active'>
+              YT Player
             </NavLink>
           </li>
           <li>

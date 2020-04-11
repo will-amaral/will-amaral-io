@@ -19,7 +19,9 @@ const MarkdownEditor = () => {
       <h1 className='major'>Editor Markdown</h1>
       <p>
         Frequentemente utilizado como tutorial de React, o Editor em Markdown aplica o
-        conceito mais básico de React, que é o estado da aplicação.
+        conceito mais básico de React, que é o estado da aplicação. Veja o código no
+        github para entender mais:{' '}
+        <a href='https://github.com/will-amaral/editor-markdown'>Editor Markdown</a>
       </p>
       <section>
         <div className='row'>

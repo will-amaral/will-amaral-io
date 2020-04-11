@@ -21,6 +21,7 @@ const YouTubePlayer = () => {
       </p>
       <section>
         <iframe
+          title='Video Clone'
           style={{ width: '100%', height: '130vh' }}
           src='https://will-amaral.github.io/video-clone'
           frameborder='0'

@@ -52,7 +52,7 @@ export const spotlights = [
   },
   {
     link: 'https://www.behance.net/will-amaral',
-    linkText: 'Ver projetos no Behance',
+    linkText: 'Ver perfil no Behance',
     title: 'Produção Editorial e Gráfica',
     content: 'Você também pode apreciar alguns dos meus projetos de Design',
     img: (
@@ -65,10 +65,10 @@ export const spotlights = [
     ),
   },
   {
-    link: 'https://github.com/will-amaral',
-    linkText: 'Ir para o Github',
-    title: 'JavaScript e Desenvolvimento',
-    content: 'Nem só de humanas viverás o homem. Conheça meus sistemas Open Source',
+    link: '/dev',
+    linkText: 'Ver projetos',
+    title: 'Desenvolvimento Web',
+    content: 'Conheça alguns projetos desenvolvidos com ReactJS',
     img: (
       <img src={pic03} alt='coding' data-position='25% 25%' style={{ display: 'none' }} />
     ),

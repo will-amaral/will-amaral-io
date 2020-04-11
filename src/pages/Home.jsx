@@ -3,9 +3,10 @@ import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
 import Section from 'containers/Section';
+import Wrapper from 'containers/Wrapper';
 
 const Home = () => (
-  <>
+  <Wrapper>
     <Helmet>
       <title>Willian Amaral - Jornalista, Designer e Desenvolvedor</title>
       <meta
@@ -31,7 +32,7 @@ const Home = () => (
         </li>
       </ul>
     </Section>
-  </>
+  </Wrapper>
 );
 
 export default Home;

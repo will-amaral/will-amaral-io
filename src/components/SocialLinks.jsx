@@ -49,6 +49,11 @@ const SocialLinks = () => {
                 <span className='label'>LinkedIn</span>
               </a>
             </li>
+            <li>
+              <a href='https://www.behance.net/will-amaral' className='fab fa-behance'>
+                <span className='label'>Behance</span>
+              </a>
+            </li>
           </ul>
         </li>
       </ul>

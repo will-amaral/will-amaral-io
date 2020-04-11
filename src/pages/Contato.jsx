@@ -5,9 +5,10 @@ import Section from 'containers/Section';
 import SocialLinks from 'components/SocialLinks';
 import Form from 'components/Form';
 import Footer from 'components/Footer';
+import Wrapper from 'containers/Wrapper';
 
 const Home = () => (
-  <>
+  <Wrapper>
     <Helmet>
       <title>Willian Amaral - Deixa um alô</title>
       <meta name='description' content='Contato' />
@@ -25,7 +26,7 @@ const Home = () => (
       </div>
     </Section>
     <Footer />
-  </>
+  </Wrapper>
 );
 
 export default Home;

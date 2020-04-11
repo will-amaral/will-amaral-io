@@ -13,13 +13,18 @@ const Sidebar = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink exact to='/sobre' className='scrolly' activeClassName='active'>
-                Quem eu sou
+              <NavLink
+                exact
+                to='/habilidades'
+                className='scrolly'
+                activeClassName='active'
+              >
+                O que eu faço
               </NavLink>
             </li>
             <li>
               <NavLink exact to='/projetos' className='scrolly' activeClassName='active'>
-                O que eu faço
+                Meus projetos
               </NavLink>
             </li>
             <li>

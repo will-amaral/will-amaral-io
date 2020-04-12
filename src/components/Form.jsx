@@ -1,12 +1,21 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 
 const Form = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [msg, setMsg] = useState('');
 
-  const onSubmit = () => {
-    console.log(name, email, msg);
+  const onSubmit = async (e) => {
+    e.preventDefault();
+    if (!name && !email && !msg) return;
+    try {
+      const response = await axios.post('http://localhost:8081', { name, email, msg });
+      console.log(response);
+    } catch (error) {
+      console.log(error.response);
+      alert('Erro no envio');
+    }
     setName('');
     setEmail('');
     setMsg('');

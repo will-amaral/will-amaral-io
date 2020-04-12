@@ -26,7 +26,7 @@ const Home = () => (
       </p>
       <ul className='actions'>
         <li>
-          <Link to='/sobre' className='button scrolly'>
+          <Link to='/habilidades' className='button scrolly'>
             Saiba mais
           </Link>
         </li>

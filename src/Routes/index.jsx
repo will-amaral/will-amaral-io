@@ -8,7 +8,7 @@ import Contato from 'pages/Contato';
 import Dev from 'pages/Dev';
 
 import MarkdownEditor from 'apps/MarkdownEditor';
-import YouTubePlayer from 'apps/YouTubePlayer';
+// import YouTubePlayer from 'apps/YouTubePlayer';
 
 const Routes = () => {
   return (

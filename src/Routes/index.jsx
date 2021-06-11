@@ -31,9 +31,9 @@ const Routes = () => {
       <Route exact path='/dev/markdown'>
         <MarkdownEditor />
       </Route>
-      <Route exact path='/dev/youtube'>
+      {/* <Route exact path='/dev/youtube'>
         <YouTubePlayer />
-      </Route>
+      </Route> */}
     </>
   );
 };
